@@ -16,7 +16,7 @@ public class DragDropTests {
 
         //move A rectangle instead B
         $("#column-a").dragAndDropTo($("#column-b"));
-        //actions().moveToElement($("#column-a")).clickAndHold().moveByOffset(500,150).release().perform();
+        //actions().moveToElement($("#column-a")).clickAndHold().moveByOffset(650,150).release().perform();
 
         //verify rectangles switched places
         $("#column-a").shouldHave(text("B"));
