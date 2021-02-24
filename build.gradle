@@ -11,7 +11,7 @@ compileTestJava {
 }
 
 dependencies {
-    testImplementation 'com.codeborne:selenide:5.18.0'
+    testImplementation 'com.codeborne:selenide:5.19.0'
     testImplementation 'org.slf4j:slf4j-simple:1.7.29'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
